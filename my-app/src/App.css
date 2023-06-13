@@ -3,6 +3,16 @@
 
 :root{
   --header-height: 3rem;
+
+  /*COLORS*/
+  --hue: 0;
+  --sat: 0%;
+  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --container-color: #fff;
+
   /*FONTS AND TYPO */
   --body-font: "Poppins", sans-serif;
 
@@ -10,6 +20,37 @@
   --font-normal: 400;
   --font-medium: 500;
   --font-semi-bold: 600;
+
+  /* MARGENES BOTTOM */
+  /* 1rem = 16px */ 
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+
+  /* z-index */
+  
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+
+/*RESPONSIVE TYPO */
+
+@media screen and (max-width: 2000px){
+  :root{
+    --big-font-size: 2.75rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+  }
 }
 
 /*BASE*/ 
@@ -28,7 +69,7 @@ button,
 input,
 textarea {
   font-family: var(--body-font);
-  font-size: var(normal-font-size);
+  font-size: var(--normal-font-size);
 }
 
 body{
@@ -106,7 +147,7 @@ img{
 }
 
 .button:hover{
-  background-color: --title-color-dark;
+  background-color: var(--title-color-dark);
 }
 
 .button__icon{
@@ -118,8 +159,47 @@ img{
   align-items: center;
 }
 
+/*BREAKPOINTS*/
 
+@media screen and (max-width: 992px){
+  .container{
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
 
+  .button{
+    padding: 1rem 1.75rem;
+  }
+
+  .button__icon{
+    width: 22%;
+    height: 22px;
+  }
+
+}
+
+/* MEDIUM DEVICES */ 
+
+@media screen and (max-width: 768px){
+  .section{
+    padding: 2rem 0 4rem;
+  }
+}
+@media screen and (max-width: 576px){
+  
+}
+
+/*SMALL DEVICES */ 
+@media screen and (max-width: 350px){
+  :root{
+    --big-font-size: 2.25rem
+  }
+  
+  .container{
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+}
 
 
 

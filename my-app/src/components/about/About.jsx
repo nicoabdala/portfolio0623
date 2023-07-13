@@ -26,7 +26,7 @@ const About = () => {
                         improvement. With adaptable problem-solving abilities, I am eager to contribute 
                         to the success of your organization.</p>
                         <a download='' href={CV} className="button button--flex">
-                            Download CV
+                            Download Resume
                         </a>
                 </div>
             </div>

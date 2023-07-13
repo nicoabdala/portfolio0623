@@ -62,7 +62,7 @@ const Qualification = () => {
                                     <h3 className="qualy__title">Web Development</h3>
                                     <span className="qualy__subtitle">Coder House - LATAM</span>
                                     <div className="qualy__calendar">
-                                        <i className="uil uil-calendar-alt"></i> May 2021 - Jul 2022
+                                        <i className="uil uil-calendar-alt"></i> May 2021 - Jul 2021
                                     </div>
                                 </div>
                             </div>
@@ -106,7 +106,9 @@ const Qualification = () => {
                                     <span className="qualy__line"></span>
                                 </div>
                                 <div>
+                                    <a href="https://www.pizzadocatering.com/" target='_blank'>
                                     <h3 className="qualy__title">Shop Online - Pizzado Catering</h3>
+                                    </a>
                                     <span className="qualy__subtitle">Applied Tech: ReactJS, Javascript, CSS <br />
                                     NodeJS, APIs.
                                     </span>
@@ -117,10 +119,12 @@ const Qualification = () => {
                             </div>
                             <div className="qualy__data">
                                 <div>
+                                    <a href="https://bellezaintegral.vercel.app/" target='_blank'>
                                     <h3 className="qualy__title">Site migration - Belleza Integral</h3>
+                                    </a>
                                     <span className="qualy__subtitle">Applied Tech: HTML, SASS, Bootstrap</span>
                                     <div className="qualy__calendar">
-                                        <i className="uil uil-calendar-alt"></i> Jan - Mar 2021
+                                        <i className="uil uil-calendar-alt"></i> Jul - Ago 2021
                                     </div>
                                 </div>
                                 <div>

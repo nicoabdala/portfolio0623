@@ -53,8 +53,7 @@
 }
 
 .home__img{
-    /* background: url(../../assets/img/profile.jpg); */
-    background-color: black;
+    background: url(../../assets/img/caslacolor.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

@@ -51,6 +51,29 @@
     --small-font-size: 0.813rem;
     --smaller-font-size: 0.75rem;
   }
+
+  #dark{
+    background-color: #121212;
+    color: white;
+  }
+
+  #dark .button{
+    background-color: white;
+    color: black;
+  }
+
+  #dark .button:hover{
+    background-color: #ffffffcb;
+  }
+
+  .switch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding-top: 100px;
+    background-color: #121212;
+  }
 }
 
 /*BASE*/ 

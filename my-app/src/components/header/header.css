@@ -4,7 +4,16 @@
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--body-color);
+    background-color: var(--container-color);
+}
+
+#dark .header{
+    background-color: black;
+    color: white;
+}
+
+#dark .nav__link, #dark .nav__logo{
+    color: white;
 }
 
 .nav{
@@ -19,6 +28,7 @@
 .nav__toggle{
     color: var(--title-color);
     font-weight: var(--font-medium);
+    font-size: var(--h1-font-size);
 }
 
 .nav__list{

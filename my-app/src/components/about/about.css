@@ -1,3 +1,15 @@
+#dark .section__title{
+    color: var(--container-color);
+}
+
+#dark .about__title{
+    color: black;
+}
+
+#dark .about__subtitle{
+    color: gray;
+}
+
 .about__container{
     grid-template-columns: repeat(2, 1fr);
     align-items: center;

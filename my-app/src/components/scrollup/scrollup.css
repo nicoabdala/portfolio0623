@@ -1,3 +1,13 @@
+#dark .scrollup, #dark .scrollup__icon{
+    background-color: white;
+    color: black;
+}
+
+#dark .scrollup:hover, #dark .scrollup__icon:hover{
+    background-color: gray;
+    color: white;
+}
+
 .scrollup{
     position: fixed;
     right: 2.5rem;

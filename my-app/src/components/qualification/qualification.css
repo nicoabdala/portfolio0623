@@ -1,3 +1,19 @@
+#dark .qualy__icon,#dark .qualy__button, #dark .qualy__title {
+    color: var(--container-color);
+}
+
+#dark .qualy__button:hover{
+    color: #ffffffcb;
+}
+
+#dark .qualy__active{
+    border: 1px solid #fff;
+    padding: 1rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 1px 4px #ffffffcb;
+    background-color: black;
+}
+
 .qualy__container{
     max-width: 768px;
 }

@@ -1,3 +1,17 @@
+#dark .footer{
+    background-color: black;
+}
+
+#dark .footer__title, #dark .footer__link, #dark .footer__copy{
+    color: white;
+}
+
+#dark .footer__title:hover, #dark .footer__link:hover{
+    color: gray;
+}
+
+
+
 .footer{
     background-color: var(--container-color);
     border-top: 1px solid rgba(0, 0, 0, 0.1);

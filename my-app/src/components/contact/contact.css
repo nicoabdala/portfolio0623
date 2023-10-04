@@ -1,3 +1,19 @@
+#dark .contact__title, #dark .contact__form-input{
+    color: var(--container-color);
+}
+
+#dark .contact__card-data{
+    color: black;
+}
+
+#dark .contact__form-tag{
+    background-color: #121212;
+}
+
+#dark .contact__form-input{
+    border: 2px solid #fff;
+}
+
 .contact__container{
     grid-template-columns: repeat(2, max-content);
     justify-content: center;

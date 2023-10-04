@@ -7,12 +7,12 @@
     background-color: var(--container-color);
 }
 
-#dark .header{
+#dark .header, #dark .show-menu{
     background-color: black;
     color: white;
 }
 
-#dark .nav__link, #dark .nav__logo{
+#dark .nav__link, #dark .nav__logo, #dark .nav__close{
     color: white;
 }
 

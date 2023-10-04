@@ -23,15 +23,15 @@ const App = () => {
 
   return (
     <ThemeContext.Provider value={{theme, toggleTheme}}>
+      <main className='main' id={theme}>
       <div className='switch'>
         <ReactSwitch 
         onChange={toggleTheme} 
-        checked={theme === 'dark'} 
-        offHandleColor='#1212121' 
+        checked={theme === 'light'} 
+        offHandleColor='#fff'
         checkedIcon=''
         uncheckedIcon=''/>          
       </div>
-      <main className='main' id={theme}>
         <Header />
         <Home />
         <About />
